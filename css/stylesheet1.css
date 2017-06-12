@@ -7,11 +7,19 @@
 	
 }
 
+body {
+    background-color: F4F4F4;
+    //-webkit-transition: background-color 0.4s ease-in-out;
+    //-moz-transition: background-color 0.4s ease-in-out;
+    //-o-transition: background-color 0.4s ease-in-out;
+    transition: background-color 0.4s ease-in-out;
+}
+
+
 
 .col-lg-8 {
-	
 	margin-top: 200px; 
-	background-color:orange; 
+	background-color:white; 
 	padding:40px 80px 20px 80px;
 	border-radius: 10px;
 	
@@ -20,11 +28,51 @@
 #quote {
 	font-family:lobster , Times , serif;
 	font-size: 30px; 
+	
+	//-webkit-transition: color 0.4s ease-in-out;
+    //-moz-transition: color 0.4s ease-in-out;
+    //-o-transition: color 0.4s ease-in-out;
+    transition: color 0.4s ease-in-out;
+	
+}
+
+#writer{
+	font-size:20px;
+	font-family: 'Slabo 27px', serif;
+    transition: color 0.4s ease-in-out;
+	
 }
 
 .quote-button {
 	padding-left: 100px;
 }
 
+.devDetail , .howUse {
+	color: #2db34a; 
+	transition-property: color;
+	transition-duration: .4s; 
+	transition-timing-function: linear; 
+}
 
+.devDetail:hover, .howUse:hover {
+	color:#ff7b29;
+}
+
+.devDetailBlock, .howUseBlock{
+	//visibility:hidden; 
+	opacity: 0; 
+	font-family: 'Slabo 27px', serif;
+	font-size:17px;
+	margin-top: 100px;
+	padding: 20px 20px 20px 20px;
+	border-radius: 15px; 
+	background: white; 
+	
+	
+	transition:opacity 1s linear;
+	
+	
+}
+
+// twitter logo color Hex: #00aced.
 

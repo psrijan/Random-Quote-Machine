@@ -1,42 +1,71 @@
 <html> 
 
 	<head> 
+	<link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<link href='https://fonts.googleapis.com/css?family=Lobster|Droid+Sans' rel='stylesheet' type='text/css'>
-		<script src='C:/Users/Shristi/Documents/Web Development/Random Quote Machine/javascript/logic.js'> </script> 
-		<link href='C:/Users/Shristi/Documents/Web Development/Random Quote Machine/css/stylesheet1.css' rel='stylesheet' type='text/css'>
+		<script src='javascript/logic.js'> </script> 
+		<link href='css/stylesheet1.css' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> 
+		<link rel="stylesheet" href="css/animate.css" type="text/css"> 
 	</head>
 
 	<body>
-		<div class="container" >
+		<div class="container">
   			<div class="row row-top">
 			    <div class ="col-lg-2"></div>
 			    <div class ="col-lg-8">
       				<div class ="textArea text-center"> 
-        				<p id="quote"> </p> 
-        				<p id="writer"> </p> 
+        				<p id="quote"> Random Quote Machine</p> 
+        				<p id="writer"> - Srijan Pandey 2016 </p> 
       				</div>
 					
 		      	<div class="buttonArea"> 
-					  <div class="row">
-					  
-						<a href="#"><i class="fa fa-facebook-official fa-3x"> </i>  </a> 
-						<a href="#"> <i class="fa fa-twitter fa-3x"> </i> </a>
-						</br> 
+					<div class="row">
+						<div class="col-lg-3">
+							<a href="#" id="facebook"><i class="fa fa-facebook-official fa-3x"> </i>  </a> 
+						</div>
+						<div class="col-lg-3">
+							<a href="#" id="twitter"> <i class="fa fa-twitter fa-3x"> </i> </a>
+							<!-- https://dev.twitter.com/web/tweet-button -->
+							
+						</div>
+						<div class="col-lg-3">
+							<i class="fa fa-info-circle fa-3x howUse"> </i> 
+							<!-- how to use goes here --> 
+						</div>
+						<div class="col-lg-3">
+							<i class="fa fa-code fa-3x devDetail"> </i>
+							<!-- credit to the developer and everything will go here --> 
 						
-					  </div> 
-					  <div class="row">
-						<button class="btn btn-primary center-block" onClick="quoteMachine()"type ="button"> <i class="fa fa-quote-left"> </i>  &nbsp; &nbsp; Quote Me!&nbsp; &nbsp;    <i class="fa fa-quote-right"> </i></button>
+						</div>						
+				  </div>
+				  
+					</br> 					  
+					<div class="row">
+						<button class="btn btn-primary center-block quote-button" "type ="button"> <i class="fa fa-quote-left"> </i>  &nbsp; &nbsp; Quote Me!&nbsp; &nbsp;    <i class="fa fa-quote-right"> </i></button>
 					</div> 
+						
+						
 				</div>
    			 </div> 
    	 		<div class ="col-lg-2"></div>  
   		</div> 
-
-	</div>
-
+		<div class="row">
+			<div class="col-lg-3 howUseBlock">
+				<p>Simple Webapp made using HTML CSS JQUERY. Uses Json to fetch quotes and display it in your browser in a beautiful way. Oh.. FB and Twitter buttons are yet to be made  </p> 
+			</div>
+			
+			<div class="col-lg-3"></div>
+			<div class="col-lg-3"></div>
+			
+			<div class="col-lg-3 devDetailBlock">
+				<p> Developed By: Srijan Pandey <i class="fa fa-copyright"> </i> 2016 </p> 
+				<p> Email Id: <a href="mailto:p.srijan08@gmail.com?Subject=Contact_Developer" target="_top">p.srijan08@gmail.com</a> </p> 
+			</div>
+			
+		</div>
 	</body>
 
 
